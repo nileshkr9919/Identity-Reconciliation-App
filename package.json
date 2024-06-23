@@ -6,6 +6,7 @@
   "scripts": {
     "db:migrate": "prisma db push",
     "start": "tsc && node dist/index.js",
+    "build": "tsc",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint:check": "eslint .",
