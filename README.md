@@ -32,6 +32,21 @@ npm run build
 ```
 This command bundles the app into static files for deployment.
 
+## API Routes
+
+### POST /identify
+Description: Endpoint for identifying and managing contacts based on email and phone number.
+
+- Request Body:
+
+| Parameter       | Description                              |
+|---------------|------------------------------------------|
+| email         | email of user             |
+| phoneNumber   | phone number of user |
+
+
+
+
 ### Environment Variables
 
 DATABASE_URL: URL of the database connection.
